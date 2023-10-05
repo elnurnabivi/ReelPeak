@@ -1,0 +1,15 @@
+body {
+  background-color: #20201d;
+  color: #fff;
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.movie-app .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+label {
+  border-radius: 50%;
+}
