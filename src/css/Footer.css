@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+.footer {
+  /* background-color: black; */
+  background-color: #20201d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  gap: 10px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer-name {
+  display: flex;
+  align-items: center;
+}
+.footer-name p {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.footer-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.footer-sm {
+  margin-bottom: 10px;
+}
+.footer-sm a {
+  margin: 0 20px;
+  color: white;
+  font-size: 34px;
+}
+
+.footer-copyright {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}

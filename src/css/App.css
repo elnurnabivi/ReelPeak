@@ -1,9 +1,6 @@
 body {
-  /* background-color: #20201d; */
   background-color: var(--body_background);
   color: var(--body_color);
-
-  /* color: #fff; */
   width: 100%;
   padding: 0px 30px;
 }
@@ -18,20 +15,9 @@ label {
 }
 
 @media (max-width: 768px) {
-  /* .logo {
-    width: 40px;
-  }
-
-  h1 {
-    font-size: 18px !important;
-  }
-  .row-m {
-    display: flex;
-    flex-direction: row;
-  } */
-
   h1 {
     margin-bottom: 0;
+    padding-right: 20px;
   }
   .logo {
     padding-bottom: 5px;
@@ -51,10 +37,9 @@ label {
   }
   .list-m {
     gap: 0.5rem !important;
-    /* justify-content: center !important;
-    align-items: center !important; */
     padding-left: 0px !important;
   }
+
   .two-filter {
     display: flex;
     flex-direction: column;

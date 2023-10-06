@@ -1,11 +1,7 @@
-import Movie from "./Movie";
-import App from "../App";
-import { useRef, useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/index.css";
 
 function Filter({
-  movieList,
   genres,
   selectedGenre,
   setSelectedGenre,
@@ -13,21 +9,6 @@ function Filter({
   setStartDate,
   setEndDate,
 }) {
-  //Year
-  // const years = movieList.map((movie) => {
-  //   const releaseDate = new Date(movie.release_date);
-  //   return releaseDate.getFullYear();
-  // });
-
-  // const uniqueYears = [...new Set(years)];
-  // console.log(uniqueYears);
-
-  //Genre(old)
-  // const handleAddGenre = (genre) => {
-  //   setSelectedGenre(genre.id);
-  //   console.log(genre);
-  // };
-
   //Genre
   const handleAddGenre = (genre) => {
     setSelectedGenre((prev) => (prev === genre.id ? null : genre.id));
@@ -114,12 +95,6 @@ function Filter({
       <div className="two-filter">
         {/* RATING */}
         <div className="mb-4">
-          {/* <select onChange={(e) => handleRatingChange(e.target.value)}>
-          <option value="all">All</option>
-          <option value="7">7+</option>
-          <option value="8">8+</option>
-          <option value="9">9+</option>
-        </select> */}
           <p className="filter-text">Select rating</p>
           <div
             className="btn-group gap-3 mr-60 list-m"
@@ -189,23 +164,7 @@ function Filter({
             </label>
           </div>
         </div>
-
         {/* RELEASE DATE */}
-        {/* Dropdown-option menu */}
-        {/* <div>
-        <select onChange={(e) => handleReleaseDate(e.target.value)}>
-          <option value="all">All</option>
-          <option value="before1900">Before 1900</option>
-          <option value="1900-1950">1900-1950</option>
-          <option value="1950-1970">1950-1970</option>
-          <option value="1970-1990">1970-1990</option>
-          <option value="1990-2000">1990-2000</option>
-          <option value="2000-2010">2000-2010</option>
-          <option value="2010-2020">2010-2020</option>
-          <option value="2020-next">2020 and After</option>
-        </select>
-      </div> */}
-        {/* RELEASE DATE-updated */}
         <div className="mb-4">
           <p className="filter-text">Select year</p>
 

@@ -7,6 +7,7 @@ import SearchBox from "./components/SearchBox";
 import Filter from "./components/Filter";
 import TrendingMovies from "./components/TrendingMovies";
 import LightMode from "./components/LightMode";
+import Footer from "./components/Footer";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -141,7 +142,7 @@ function App() {
     <>
       <div className="container-liquid movie-app">
         <div className=" d-flex align-items-evenly mt-4 mb-4 m-1 col-m">
-          <MovieHeading heading="ReelPeak movies" />
+          <MovieHeading heading="ReelPeak" />
           <SearchBox setSearchQuery={setSearchQuery} />
           <LightMode />
         </div>
@@ -177,6 +178,9 @@ function App() {
             show={showTrending}
             handleClose={handleTrendingClose}
           />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </>

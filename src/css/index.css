@@ -33,10 +33,7 @@ code {
 }
 
 .genre-li {
-  /* background: white; */
-  /* color: #ff5735; */
   background: rgba(255, 255, 255, 0.1);
-  /* border: 1px solid rgba(255, 255, 255, 0.4); */
   border: var(--body_border);
   color: var(--body_genre_color);
   font-size: 18px;
@@ -51,26 +48,8 @@ code {
   color: white;
 }
 
-/* .btn-group .btn {
-  background: linear-gradient(180deg, #ffa033 0%, #ff5735 100%);
-  color: white; */
-/* border: 1px solid white; */
-/* border: none;
-  font-size: 18px;
-  font-weight: 600;
-} */
-
-/* .btn-group .btn:active,
-.btn-group .btn.active {
-  background-color: white; 
-  color: #ff5735;
-} */
-
 .btn-group input[type="radio"] + label.btn {
-  /* background: white;
-  color: #ff5735; */
   background: rgba(255, 255, 255, 0.1);
-  /* border: 1px solid rgba(255, 255, 255, 0.4); */
   border: var(--body_border);
   color: var(--body_genre_color);
   border-radius: 0%;
@@ -155,21 +134,3 @@ input.form-control {
   border: var(--input_border);
   width: 90%;
 }
-
-/* @media (max-width: 768px) { */
-/* 
-  .col-m {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .light-m {
-    margin: 0px !important;
-  }
-  .list-m {
-    display: flex;
-
-    gap: 0.2rem !important;
-  }
-} */

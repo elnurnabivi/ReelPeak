@@ -35,13 +35,11 @@
   visibility: hidden;
 }
 .light_mode_input:checked + .light_mode_label {
-  /* background: #242424; */
   background: #ebebeb;
 }
 .light_mode_input:checked + .light_mode_label:after {
   left: 62px;
   transform: translateX(-100%);
-  /* background: linear-gradient(180deg, #777, #3a3a3a); */
   background: linear-gradient(180deg, #ffcc89, #d8860b);
 }
 .light_mode_label:active:after {
