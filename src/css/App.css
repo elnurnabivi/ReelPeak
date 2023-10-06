@@ -16,3 +16,56 @@ body {
 label {
   border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+  /* .logo {
+    width: 40px;
+  }
+
+  h1 {
+    font-size: 18px !important;
+  }
+  .row-m {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  h1 {
+    margin-bottom: 0;
+  }
+  .logo {
+    padding-bottom: 5px;
+    width: 60px;
+  }
+  body {
+    padding: 0 6px;
+  }
+  .col-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .light-m {
+    margin: -10px 0 0 0 !important;
+  }
+  .list-m {
+    gap: 0.5rem !important;
+    /* justify-content: center !important;
+    align-items: center !important; */
+    padding-left: 0px !important;
+  }
+  .two-filter {
+    display: flex;
+    flex-direction: column;
+  }
+  .filter-text {
+    margin-top: 0px;
+  }
+  .movies-text {
+    margin-top: -10px;
+  }
+  .poster-m {
+    width: 180px !important;
+  }
+}

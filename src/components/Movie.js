@@ -29,6 +29,7 @@ function Movie({
                 marginBottom: "25px",
                 cursor: "pointer",
               }}
+              className="poster-m"
               src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
               alt="movie poster"
               onClick={() => setSelectedMovie(movie)}

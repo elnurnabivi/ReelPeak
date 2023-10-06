@@ -2,6 +2,7 @@ import Movie from "./Movie";
 import App from "../App";
 import { useRef, useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/index.css";
 
 function Filter({
   movieList,
@@ -96,7 +97,7 @@ function Filter({
       {/* GENRE */}
       <div>
         <p className="filter-text">Select genre</p>
-        <ul className="list-unstyled d-flex flex-wrap justify-content-start gap-3">
+        <ul className="list-unstyled d-flex flex-wrap justify-content-start gap-3 list-m">
           {[allGenre, ...genres].map((genre) => (
             <li
               key={genre.id}
@@ -112,7 +113,7 @@ function Filter({
       </div>
       <div className="two-filter">
         {/* RATING */}
-        <div className="mb-4 ">
+        <div className="mb-4">
           {/* <select onChange={(e) => handleRatingChange(e.target.value)}>
           <option value="all">All</option>
           <option value="7">7+</option>
@@ -121,7 +122,7 @@ function Filter({
         </select> */}
           <p className="filter-text">Select rating</p>
           <div
-            className="btn-group gap-3 mr-60"
+            className="btn-group gap-3 mr-60 list-m"
             role="group"
             aria-label="Basic radio toggle button group"
           >
@@ -209,7 +210,7 @@ function Filter({
           <p className="filter-text">Select year</p>
 
           <div
-            className="btn-group gap-3 "
+            className="btn-group gap-3 list-m"
             role="group"
             aria-label="Year radio toggle button group"
           >

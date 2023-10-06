@@ -153,4 +153,23 @@ code {
 
 input.form-control {
   border: var(--input_border);
+  width: 90%;
 }
+
+/* @media (max-width: 768px) { */
+/* 
+  .col-m {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .light-m {
+    margin: 0px !important;
+  }
+  .list-m {
+    display: flex;
+
+    gap: 0.2rem !important;
+  }
+} */

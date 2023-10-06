@@ -23,7 +23,7 @@ const LightMode = () => {
     else setDarkMode();
   };
   return (
-    <div className="light_mode">
+    <div className="light_mode align-self-center light-m">
       <input
         className="light_mode_input"
         type="checkbox"

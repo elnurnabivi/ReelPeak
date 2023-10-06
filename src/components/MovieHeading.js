@@ -3,7 +3,7 @@ import logo from "../images/logo3.png";
 
 const MovieHeading = ({ heading }) => {
   return (
-    <div className="col">
+    <div className="col row-m">
       <h1>
         <img src={logo} alt="logo3" className="logo"></img>
         {heading}

@@ -140,14 +140,12 @@ function App() {
   return (
     <>
       <div className="container-liquid movie-app">
-        <div className="row d-flex align-items-center mt-4 mb-4 m-1">
+        <div className=" d-flex align-items-evenly mt-4 mb-4 m-1 col-m">
           <MovieHeading heading="ReelPeak movies" />
           <SearchBox setSearchQuery={setSearchQuery} />
-          {/* <LightMode /> */}
-        </div>
-        <div>
           <LightMode />
         </div>
+
         <div>
           <Filter
             movieList={movieList}
