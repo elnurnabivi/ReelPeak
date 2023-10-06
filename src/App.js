@@ -6,6 +6,7 @@ import MovieHeading from "./components/MovieHeading";
 import SearchBox from "./components/SearchBox";
 import Filter from "./components/Filter";
 import TrendingMovies from "./components/TrendingMovies";
+import LightMode from "./components/LightMode";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -142,6 +143,10 @@ function App() {
         <div className="row d-flex align-items-center mt-4 mb-4 m-1">
           <MovieHeading heading="ReelPeak movies" />
           <SearchBox setSearchQuery={setSearchQuery} />
+          {/* <LightMode /> */}
+        </div>
+        <div>
+          <LightMode />
         </div>
         <div>
           <Filter

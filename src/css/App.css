@@ -1,6 +1,9 @@
 body {
-  background-color: #20201d;
-  color: #fff;
+  /* background-color: #20201d; */
+  background-color: var(--body_background);
+  color: var(--body_color);
+
+  /* color: #fff; */
   width: 100%;
   padding: 0px 30px;
 }
