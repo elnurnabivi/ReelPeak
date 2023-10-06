@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reelpeak/static/css/main.9afcf3fe.css",
-    "main.js": "/reelpeak/static/js/main.6cc77ef9.js",
-    "static/media/logo3.png": "/reelpeak/static/media/logo3.eaa7a240cebf3f8ffae6.png",
-    "static/media/Sun.svg": "/reelpeak/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
-    "static/media/Moon.svg": "/reelpeak/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
-    "index.html": "/reelpeak/index.html",
-    "main.9afcf3fe.css.map": "/reelpeak/static/css/main.9afcf3fe.css.map",
-    "main.6cc77ef9.js.map": "/reelpeak/static/js/main.6cc77ef9.js.map"
+    "main.css": "/ReelPeak/static/css/main.9afcf3fe.css",
+    "main.js": "/ReelPeak/static/js/main.9a1a3470.js",
+    "static/media/logo3.png": "/ReelPeak/static/media/logo3.eaa7a240cebf3f8ffae6.png",
+    "static/media/Sun.svg": "/ReelPeak/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/ReelPeak/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/ReelPeak/index.html",
+    "main.9afcf3fe.css.map": "/ReelPeak/static/css/main.9afcf3fe.css.map",
+    "main.9a1a3470.js.map": "/ReelPeak/static/js/main.9a1a3470.js.map"
   },
   "entrypoints": [
     "static/css/main.9afcf3fe.css",
-    "static/js/main.6cc77ef9.js"
+    "static/js/main.9a1a3470.js"
   ]
 }
