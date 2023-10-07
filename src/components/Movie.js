@@ -34,7 +34,7 @@ function Movie({
               alt="movie poster"
               onClick={() => setSelectedMovie(movie)}
             />
-          ))}{" "}
+          ))}
         </div>
         <div></div>
       </div>
